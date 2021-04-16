@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/plugins/thermal_anomaly" >
+        <file>icon.png</file>
+		<file>polygon_icon.png</file>
+		<file>ta_1.png</file>
+		<file>ta_2.png</file>
+		<file>ta_21.png</file>
+		<file>ta_22.png</file>
+		<file>ta_23.png</file>
+		<file>ta_24.png</file>
+		<file>ta_3.png</file>
+		<file>ta_31.png</file>
+		<file>ta_32.png</file>
+		<file>ta_33.png</file>
+		<file>ta_4.png</file>
+    </qresource>
+</RCC>

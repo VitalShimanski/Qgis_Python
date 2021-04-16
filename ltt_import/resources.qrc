@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/LTT_import" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

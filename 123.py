@@ -1,0 +1,10 @@
+from qgis.core import QgsDataSourceUri , QgsRasterLayer
+quri = QgsDataSourceUri()
+quri.setParam("layers", 'ecmwf007.fwi')
+quri.setParam("styles", '')
+quri.setParam("format", 'image/tiff')
+quri.setParam("srs", 'EPSG:4326')
+quri.setParam("contextualWMSLegend", '1')
+quri.setParam("url", 'https://ies-ows.jrc.ec.europa.eu/effis?service=WMS')
+rlayer = QgsRasterLayer(quri.uri(), 'FWI')
+QgsProject.instance().addMapLayer(rlayer)
